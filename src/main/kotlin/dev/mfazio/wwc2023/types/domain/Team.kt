@@ -19,6 +19,7 @@ sealed class Team(
     object France : Team("FRA", "France", "FR", "F")
     object Germany : Team("GER", "Germany", "DE", "H")
     object Haiti : Team("HAI", "Haiti", "HT", "D")
+    object Ireland : Team("IRL", "Ireland", "IE", "B")
     object Italy : Team("ITA", "Italy", "IT", "G")
     object Jamaica : Team("JAM", "Jamaica", "JM", "F")
     object Japan : Team("JPN", "Japan", "JP", "C")
@@ -31,7 +32,6 @@ sealed class Team(
     object Panama : Team("PAN", "Panama", "PA", "F")
     object Philippines : Team("PHI", "Philippines", "PH", "A")
     object Portugal : Team("POR", "Portugal", "PT", "E")
-    object Ireland : Team("IRL", "Ireland", "IE", "B")
     object SouthAfrica : Team("RSA", "South Africa", "ZA", "G")
     object Spain : Team("ESP", "Spain", "ES", "C")
     object Sweden : Team("SWE", "Sweden", "SE", "G")
@@ -54,6 +54,7 @@ sealed class Team(
             France,
             Germany,
             Haiti,
+            Ireland,
             Italy,
             Jamaica,
             Japan,
@@ -66,7 +67,6 @@ sealed class Team(
             Panama,
             Philippines,
             Portugal,
-            Ireland,
             SouthAfrica,
             Spain,
             Sweden,
